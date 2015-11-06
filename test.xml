@@ -1,0 +1,946 @@
+﻿<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2015//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_150101.dtd">
+<PubmedArticleSet>
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">26463095</PMID>
+        <DateCreated>
+            <Year>2015</Year>
+            <Month>10</Month>
+            <Day>14</Day>
+        </DateCreated>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1944-7930</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>20</Volume>
+                    <Issue>109</Issue>
+                    <PubDate>
+                        <Year>2015</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Discovery medicine</Title>
+                <ISOAbbreviation>Discov Med</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Differing prospects for the future of using gene therapy to treat infections with hepatitis B virus and hepatitis C virus.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>137-43</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>Infections with hepatitis B and hepatitis C viruses (HBV and HCV) are major global causes of liver diseases, often become chronic, and may be complicated by cirrhosis and liver cancer. Although HBV and HCV share common clinical features, their molecular biology is very different. HBV is a DNA virus that replicates by a mechanism that involves reverse transcription. The replication intermediate comprising nuclear covalently closed circular DNA (cccDNA) is stable and is largely unaffected by currently licensed drugs. Disabling cccDNA using gene therapy, particularly through application of gene editing technology, shows promise. Advancing this strategy may lead to a cure of HBV infection. HCV differs from HBV in that it is an RNA virus that replicates exclusively in the cytoplasm of infected cells. RNAi-based gene silencing and inhibition of the function of microRNA-122 using antisense oligonucleotides have shown promise against HCV. However recent evidence indicates that HCV may be eliminated with a combination of drugs that achieves sustained inhibition of viral replication and provides a high barrier to viral resistance. The long term prospects of nucleic acid-based HCV treatment are likely to be influenced by the success and affordability of these directly acting small molecule drugs. Conversely, since HBV is not susceptible to elimination using a similar approach, developing gene therapy for HBV infection remains a priority.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Ely</LastName>
+                    <ForeName>Abdullah</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Wits/SAMRC Antiviral Gene Therapy Research Unit, School of Pathology, Health Sciences Faculty, University of the Witwatersrand, Johannesburg, South Africa.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Arbuthnot</LastName>
+                    <ForeName>Patrick</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Wits/SAMRC Antiviral Gene Therapy Research Unit, School of Pathology, Health Sciences Faculty, University of the Witwatersrand, Johannesburg, South Africa.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Discov Med</MedlineTA>
+            <NlmUniqueID>101250006</NlmUniqueID>
+            <ISSNLinking>1539-6509</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>16</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">26463095</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">26436695</PMID>
+        <DateCreated>
+            <Year>2015</Year>
+            <Month>10</Month>
+            <Day>19</Day>
+        </DateCreated>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1949-2553</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>6</Volume>
+                    <Issue>31</Issue>
+                    <PubDate>
+                        <Year>2015</Year>
+                        <Month>Oct</Month>
+                        <Day>13</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Oncotarget</Title>
+                <ISOAbbreviation>Oncotarget</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Discovery of Compound A - a selective activator of the glucocorticoid receptor with anti-inflammatory and anti-cancer activity.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>30730-44</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.18632/oncotarget.5078</ELocationID>
+            <Abstract>
+                <AbstractText>Glucocorticoids are among the most effective anti-inflammatory drugs, and are widely used for cancer therapy. Unfortunately, chronic treatment with glucocorticoids results in multiple side effects. Thus, there was an intensive search for selective glucocorticoid receptor (GR) activators (SEGRA), which retain therapeutic potential of glucocorticoids, but with fewer adverse effects. GR regulates gene expression by transactivation (TA), by binding as homodimer to gene promoters, or transrepression (TR), via diverse mechanisms including negative interaction between monomeric GR and other transcription factors. It is well accepted that metabolic and atrophogenic effects of glucocorticoids are mediated by GR TA. Here we summarized the results of extensive international collaboration that led to discovery and characterization of Compound A (CpdA), a unique SEGRA with a proven &quot;dissociating&quot; GR ligand profile, preventing GR dimerization and shifting GR activity towards TR both in vitro and in vivo. We outlined here the unusual story of compound's discovery, and presented a comprehensive overview of CpdA ligand properties, its anti-inflammatory effects in numerous animal models of inflammation and autoimmune diseases, as well as its anti-cancer effects. Finally, we presented mechanistic analysis of CpdA and glucocorticoid effects in skin, muscle, bone, and regulation of glucose and fat metabolism to explain decreased CpdA side effects compared to glucocorticoids. Overall, the results obtained by our and other laboratories underline translational potential of CpdA and its derivatives for treatment of inflammation, autoimmune diseases and cancer.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Lesovaya</LastName>
+                    <ForeName>Ekaterina</ForeName>
+                    <Initials>E</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Chemical Carcinogenesis, N.N. Blokhin Russian Cancer Research Center, Moscow, Russia.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yemelyanov</LastName>
+                    <ForeName>Alexander</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Pulmonary Division, Feinberg School of Medicine, Northwestern University, Chicago, IL, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Swart</LastName>
+                    <ForeName>Amanda C</ForeName>
+                    <Initials>AC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biochemistry, Stellenbosch University, Stellenbosch, South Africa.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Swart</LastName>
+                    <ForeName>Pieter</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biochemistry, Stellenbosch University, Stellenbosch, South Africa.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Haegeman</LastName>
+                    <ForeName>Guy</ForeName>
+                    <Initials>G</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>LEGEST, University of Ghent, Ghent, Belgium.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Budunova</LastName>
+                    <ForeName>Irina</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Dermatology, Feinberg School of Medicine, Northwestern University, Chicago, IL, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Oncotarget</MedlineTA>
+            <NlmUniqueID>101532965</NlmUniqueID>
+            <ISSNLinking>1949-2553</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Review</Keyword>
+            <Keyword MajorTopicYN="N">autoimmune diseases</Keyword>
+            <Keyword MajorTopicYN="N">cancer</Keyword>
+            <Keyword MajorTopicYN="N">compound A</Keyword>
+            <Keyword MajorTopicYN="N">inflammation</Keyword>
+            <Keyword MajorTopicYN="N">selective glucocorticoid receptor activator (SEGRA)</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>6</Month>
+                <Day>5</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>9</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2015</Year>
+                <Month>10</Month>
+                <Day>6</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">26436695</ArticleId>
+            <ArticleId IdType="pii">5078</ArticleId>
+            <ArticleId IdType="doi">10.18632/oncotarget.5078</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">26376615</PMID>
+        <DateCreated>
+            <Year>2015</Year>
+            <Month>10</Month>
+            <Day>09</Day>
+        </DateCreated>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1949-2553</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>6</Volume>
+                    <Issue>29</Issue>
+                    <PubDate>
+                        <Year>2015</Year>
+                        <Month>Sep</Month>
+                        <Day>29</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Oncotarget</Title>
+                <ISOAbbreviation>Oncotarget</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Targeting Batf2 for infectious diseases and cancer.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>26575-82</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.18632/oncotarget.5576</ELocationID>
+            <Abstract>
+                <AbstractText>The family members Batf, Batf2 and Batf3 belong to a class of transcription factors containing basic leucine zipper domains that regulate various immunological functions and control the development and differentiation of immune cells. Functional studies by others demonstrated a predominant role for Batf in controlling Th2 cell functions and lineage development of T lymphocytes as well as a critical role of Batf, Batf2 and Batf3 in CD8α+dendritic cell development. Moreover, Batf family member expression was measured in a vast collection of mouse and human cell types by cap analysis gene expression (CAGE), a recent developed sequencing technology, showing reasonable expression spectrum in immune cells consistent with previously published expression profiles. Batf and Batf3 were highly expressed in lymphocytes and the earlier moderately expressed in myeloid lineages. Batf2 was predominantly expressed in monocytes/macrophages. Functional studies in mice demonstrated that Batf2 has a central role in macrophage activation by regulating inflammatory responses during lipopolysaccharides stimulation and mycobacterial infection. Hence, Batf2 could be used as a biomarker and a potential host directed drug target in tuberculosis. Moreover, Batf2 act as a tumor suppressor gene and augmenting Batf2 in malignant cells might be an encouraging therapeutic treatment against cancer.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Guler</LastName>
+                    <ForeName>Reto</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>International Centre for Genetic Engineering and Biotechnology, Cape Town Component, Cape Town, South Africa.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Immunology, Institute of Infectious Diseases and Molecular Medicine, Health Science Faculty, University of Cape Town, Cape Town, South Africa.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Roy</LastName>
+                    <ForeName>Sugata</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>RIKEN Center for Life Science Technologies, Division of Genomic Technologies, Tsurumi-ku, Yokohama, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suzuki</LastName>
+                    <ForeName>Harukazu</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>RIKEN Center for Life Science Technologies, Division of Genomic Technologies, Tsurumi-ku, Yokohama, Japan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Brombacher</LastName>
+                    <ForeName>Frank</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>International Centre for Genetic Engineering and Biotechnology, Cape Town Component, Cape Town, South Africa.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Division of Immunology, Institute of Infectious Diseases and Molecular Medicine, Health Science Faculty, University of Cape Town, Cape Town, South Africa.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Oncotarget</MedlineTA>
+            <NlmUniqueID>101532965</NlmUniqueID>
+            <ISSNLinking>1949-2553</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">cancer</Keyword>
+            <Keyword MajorTopicYN="N">host-directed drug therapy</Keyword>
+            <Keyword MajorTopicYN="N">transcription factors</Keyword>
+            <Keyword MajorTopicYN="N">transcriptomics</Keyword>
+            <Keyword MajorTopicYN="N">tuberculosis</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>8</Month>
+                <Day>6</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>8</Month>
+                <Day>19</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2015</Year>
+                <Month>9</Month>
+                <Day>18</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>9</Month>
+                <Day>18</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2015</Year>
+                <Month>9</Month>
+                <Day>18</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">26376615</ArticleId>
+            <ArticleId IdType="pii">5576</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="In-Data-Review">
+        <PMID Version="1">26362400</PMID>
+        <DateCreated>
+            <Year>2015</Year>
+            <Month>10</Month>
+            <Day>27</Day>
+        </DateCreated>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1949-2553</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>6</Volume>
+                    <Issue>31</Issue>
+                    <PubDate>
+                        <Year>2015</Year>
+                        <Month>Oct</Month>
+                        <Day>13</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Oncotarget</Title>
+                <ISOAbbreviation>Oncotarget</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Progresses towards safe and efficient gene therapy vectors.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>30675-703</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.18632/oncotarget.5169</ELocationID>
+            <Abstract>
+                <AbstractText>The emergence of genetic engineering at the beginning of the 1970's opened the era of biomedical technologies, which aims to improve human health using genetic manipulation techniques in a clinical context. Gene therapy represents an innovating and appealing strategy for treatment of human diseases, which utilizes vehicles or vectors for delivering therapeutic genes into the patients' body. However, a few past unsuccessful events that negatively marked the beginning of gene therapy resulted in the need for further studies regarding the design and biology of gene therapy vectors, so that this innovating treatment approach can successfully move from bench to bedside. In this paper, we review the major gene delivery vectors and recent improvements made in their design meant to overcome the issues that commonly arise with the use of gene therapy vectors. At the end of the manuscript, we summarized the main advantages and disadvantages of common gene therapy vectors and we discuss possible future directions for potential therapeutic vectors.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Chira</LastName>
+                    <ForeName>Sergiu</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Research Center for Functional Genomics, Biomedicine and Translational Medicine, University of Medicine and Pharmacy &quot;Iuliu Haţieganu&quot;, Cluj Napoca, Romania.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jackson</LastName>
+                    <ForeName>Carlo S</ForeName>
+                    <Initials>CS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Immunology and Institute for Cellular and Molecular Medicine, Faculty of Health Sciences, University of Pretoria, Pretoria, South Africa.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Oprea</LastName>
+                    <ForeName>Iulian</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Oncology and Pathology, Cancer Center Karolinska, Karolinska Institutet and Karolinska University Hospital, Stockholm, Sweden.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ozturk</LastName>
+                    <ForeName>Ferhat</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Molecular Biology and Genetics, Canik Başari University, Samsun, Turkey.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Pepper</LastName>
+                    <ForeName>Michael S</ForeName>
+                    <Initials>MS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Immunology and Institute for Cellular and Molecular Medicine, Faculty of Health Sciences, University of Pretoria, Pretoria, South Africa.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Diaconu</LastName>
+                    <ForeName>Iulia</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>BlueBird Bio, Cambridge, MA, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Braicu</LastName>
+                    <ForeName>Cornelia</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Research Center for Functional Genomics, Biomedicine and Translational Medicine, University of Medicine and Pharmacy &quot;Iuliu Haţieganu&quot;, Cluj Napoca, Romania.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Raduly</LastName>
+                    <ForeName>Lajos-Zsolt</ForeName>
+                    <Initials>LZ</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Research Center for Functional Genomics, Biomedicine and Translational Medicine, University of Medicine and Pharmacy &quot;Iuliu Haţieganu&quot;, Cluj Napoca, Romania.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Physiopathology, Faculty of Veterinary Medicine, University of Agricultural Science and Veterinary Medicine, Cluj Napoca, Romania.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Calin</LastName>
+                    <ForeName>George A</ForeName>
+                    <Initials>GA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Experimental Therapeutics, The University of Texas MD Anderson Cancer Center, Houston, TX, USA.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Center for RNA Interference and Non-Coding RNAs, The University of Texas MD Anderson Cancer Center, Houston, TX, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Berindan-Neagoe</LastName>
+                    <ForeName>Ioana</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Research Center for Functional Genomics, Biomedicine and Translational Medicine, University of Medicine and Pharmacy &quot;Iuliu Haţieganu&quot;, Cluj Napoca, Romania.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Immunology, University of Medicine and Pharmacy &quot;Iuliu Haţieganu&quot;, Cluj Napoca, Romania.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Functional Genomics and Experimental Pathology, Oncological Institute &quot;Prof. Dr. Ion Chiricuţă&quot;, Cluj Napoca, Romania.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Experimental Therapeutics, The University of Texas MD Anderson Cancer Center, Houston, TX, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D016454">Review</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Oncotarget</MedlineTA>
+            <NlmUniqueID>101532965</NlmUniqueID>
+            <ISSNLinking>1949-2553</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">AAVP</Keyword>
+            <Keyword MajorTopicYN="N">gene therapy</Keyword>
+            <Keyword MajorTopicYN="N">hybrid vectors</Keyword>
+            <Keyword MajorTopicYN="N">non-viral vectors</Keyword>
+            <Keyword MajorTopicYN="N">viral vectors</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>6</Month>
+                <Day>16</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>8</Month>
+                <Day>22</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2015</Year>
+                <Month>9</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>9</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2015</Year>
+                <Month>9</Month>
+                <Day>13</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">26362400</ArticleId>
+            <ArticleId IdType="pii">5169</ArticleId>
+            <ArticleId IdType="doi">10.18632/oncotarget.5169</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">26239319</PMID>
+        <DateCreated>
+            <Year>2015</Year>
+            <Month>8</Month>
+            <Day>18</Day>
+        </DateCreated>
+        <DateRevised>
+            <Year>2015</Year>
+            <Month>8</Month>
+            <Day>18</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1872-7492</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2015</Year>
+                        <Month>Jul</Month>
+                        <Day>31</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Virus research</Title>
+                <ISOAbbreviation>Virus Res.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>The role of long non-coding RNAs in hepatitis B virus-related hepatocellular carcinoma.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn/>
+            </Pagination>
+            <ELocationID EIdType="pii">S0168-1702(15)30029-0</ELocationID>
+            <ELocationID EIdType="doi">10.1016/j.virusres.2015.07.025</ELocationID>
+            <Abstract>
+                <AbstractText NlmCategory="UNASSIGNED">Chronic infection with hepatitis B virus (HBV) is a major risk for development of hepatocellular carcinoma (HCC), which is the fifth most common cancer and a leading global cause of mortality. Long noncoding RNAs (lncRNAs) are regulators of complex biological processes and their functional disruption is implicated in the etiology of many cancers including HCC. Several lncRNAs have been shown to have oncogenic or tumor suppressive roles and have recently become the focus of intense investigation. However, the contributions of lncRNAs to HBV-related HCC remain to be fully elucidated. In this review we concentrate on the functional roles of various lncRNAs in HBV-associated HCC. Their involvement in viral replication, the specific association of certain lncRNAs with HBV-related HCC, potential utility as therapeutic targets and diagnostic markers are discussed.</AbstractText>
+                <CopyrightInformation>Copyright © 2015 Elsevier B.V. All rights reserved.</CopyrightInformation>
+            </Abstract>
+            <AuthorList>
+                <Author>
+                    <LastName>Moyo</LastName>
+                    <ForeName>Buhle</ForeName>
+                    <Initials>B</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Wits/SAMRC Antiviral Gene Therapy Research Unit, School of Pathology, Health Sciences Faculty, University of the Witwatersrand, Johannesburg, South Africa.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Nicholson</LastName>
+                    <ForeName>Samantha A</ForeName>
+                    <Initials>SA</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Wits/SAMRC Antiviral Gene Therapy Research Unit, School of Pathology, Health Sciences Faculty, University of the Witwatersrand, Johannesburg, South Africa.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author>
+                    <LastName>Arbuthnot</LastName>
+                    <ForeName>Patrick B</ForeName>
+                    <Initials>PB</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Wits/SAMRC Antiviral Gene Therapy Research Unit, School of Pathology, Health Sciences Faculty, University of the Witwatersrand, Johannesburg, South Africa. Electronic address: Patrick.arbuthnot@wits.ac.za.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>ENG</Language>
+            <PublicationTypeList>
+                <PublicationType UI="">JOURNAL ARTICLE</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2015</Year>
+                <Month>7</Month>
+                <Day>31</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <MedlineTA>Virus Res</MedlineTA>
+            <NlmUniqueID>8410979</NlmUniqueID>
+            <ISSNLinking>0168-1702</ISSNLinking>
+        </MedlineJournalInfo>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">HBV</Keyword>
+            <Keyword MajorTopicYN="N">HBx</Keyword>
+            <Keyword MajorTopicYN="N">HBx-LINE1</Keyword>
+            <Keyword MajorTopicYN="N">HCC</Keyword>
+            <Keyword MajorTopicYN="N">lncRNA</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2015</Year>
+                <Month>4</Month>
+                <Day>30</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2015</Year>
+                <Month>7</Month>
+                <Day>26</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2015</Year>
+                <Month>7</Month>
+                <Day>28</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2015</Year>
+                <Month>8</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2015</Year>
+                <Month>8</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2015</Year>
+                <Month>8</Month>
+                <Day>5</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">26239319</ArticleId>
+            <ArticleId IdType="pii">S0168-1702(15)30029-0</ArticleId>
+            <ArticleId IdType="doi">10.1016/j.virusres.2015.07.025</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID Version="1">24018495</PMID>
+        <DateCreated>
+            <Year>2013</Year>
+            <Month>09</Month>
+            <Day>10</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2014</Year>
+            <Month>04</Month>
+            <Day>22</Day>
+        </DateCompleted>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">1665-2681</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>12</Volume>
+                    <Issue>5</Issue>
+                    <PubDate>
+                        <MedlineDate>2013 Sep-Oct</MedlineDate>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Annals of hepatology</Title>
+                <ISOAbbreviation>Ann Hepatol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Caspase recruitment domains. New potential markers for diagnosis of hepatocellular carcinoma associated with HCV in Egyptian patients.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>774-81</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText Label="UNLABELLED">BACKGROUND AND RATIONALE FOR THE STUDY: Chronic HCV is a major cause of HCC development. Caspase Recruitment Domains (CARD) is protein modules that regulate apoptosis and play an important role in various carcinogenesis processes, our aim is to assess the possible role of CARD9, CARD10 and Caspase only protein (COP) in progression of liver fibrosis and pathogenesis of HCC in Egyptian chronic HCV patients.</AbstractText>
+                <AbstractText Label="MATERIAL AND METHODS" NlmCategory="METHODS">130 patients were recruited and classified into 4 groups; I: chronic HCV, II: chronic active hepatitis, III: liver cirrhosis, IV: HCV related HCC. Biochemical, virological studies, abdominal ultrasonography and liver biopsy were performed. Quantitative estimation of mRNA of CARD9, CARD10 and COP gene expression was performed by RT- PCR in liver biopsy from all patients.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">In HCC patients; age, AFP and liver profile were significantly higher, HB and platelets were significantly lower (p value &lt;0.01). The expression levels of mRNA of CARD9, CARD10 and COP in liver biopsies of HCC were significantly higher than other groups with direct correlation with age and no correlation with AFP, viral load, liver fibrosis or necroinflammatory activity. On differentiation between HCC and non HCC patients each CARD was assessed separately and combined, on combing the 3 CARDs, the sensitivity was 100%, specificity was 48%, positive predictive value 47% and negative predictive value 100%.</AbstractText>
+                <AbstractText Label="CONCLUSIONS" NlmCategory="CONCLUSIONS">CARD9, CARD10 and COP had no role in liver fibrosis but may be involved in hepatic carcinogenesis and they could be used as markers for HCC diagnosis and candid genes for molecular target therapy.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Zekri</LastName>
+                    <ForeName>Abdel-Rahman</ForeName>
+                    <Initials>AR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Virology and Immunology Unit, Cancer Biology Department, National Cancer Institute, Cairo University, Cairo, Egypt.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>El-Kassas</LastName>
+                    <ForeName>Mohamed</ForeName>
+                    <Initials>M</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Saad</LastName>
+                    <ForeName>Yasmin</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bahnassy</LastName>
+                    <ForeName>Abeer</ForeName>
+                    <Initials>A</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>El-Din</LastName>
+                    <ForeName>Hany Khatab Sameh Seif</ForeName>
+                    <Initials>HK</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Darweesh</LastName>
+                    <ForeName>Samar K</ForeName>
+                    <Initials>SK</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Abdel Hafez</LastName>
+                    <ForeName>Hanan</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Esmat</LastName>
+                    <ForeName>Gamal</ForeName>
+                    <Initials>G</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Mexico</Country>
+            <MedlineTA>Ann Hepatol</MedlineTA>
+            <NlmUniqueID>101155885</NlmUniqueID>
+            <ISSNLinking>1665-2681</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="C097353">AFP protein, human</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D053468">CARD Signaling Adaptor Proteins</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="C430880">CARD10 protein, human</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="C505855">CARD9 protein, human</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D012333">RNA, Messenger</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D014408">Tumor Markers, Biological</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D000509">alpha-Fetoproteins</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000293">Adolescent</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000328">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D001706">Biopsy</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D053468">CARD Signaling Adaptor Proteins</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006528">Carcinoma, Hepatocellular</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000473">pathology</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000821">virology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" Type="Geographic" UI="D004534">Egypt</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D005260">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D005820">Genetic Testing</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000379">methods</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D019698">Hepatitis C, Chronic</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000150">complications</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000175">diagnosis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D006801">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008103">Liver Cirrhosis</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000235">genetics</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000473">pathology</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000821">virology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008113">Liver Neoplasms</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000473">pathology</QualifierName>
+                <QualifierName MajorTopicYN="N" UI="Q000821">virology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008297">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D008875">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D016133">Polymerase Chain Reaction</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D011237">Predictive Value of Tests</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D011379">Prognosis</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D012333">RNA, Messenger</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000032">analysis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D014408">Tumor Markers, Biological</DescriptorName>
+                <QualifierName MajorTopicYN="Y" UI="Q000235">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D015854">Up-Regulation</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D019562">Viral Load</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D055815">Young Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N" UI="D000509">alpha-Fetoproteins</DescriptorName>
+                <QualifierName MajorTopicYN="N" UI="Q000032">analysis</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2013</Year>
+                <Month>9</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2013</Year>
+                <Month>9</Month>
+                <Day>11</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2014</Year>
+                <Month>4</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">1064617</ArticleId>
+            <ArticleId IdType="pubmed">24018495</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+</PubmedArticleSet>
