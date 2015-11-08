@@ -1,24 +1,24 @@
 import xml.etree.ElementTree as ET
 import re
-#tree = ET.parse("test.xml")
+#tree = ET.parse("test1.xml")
 tree = ET.parse("pubmed_result.xml")
 root = tree.getroot()
 hit =[]
-hit1 =[]
 docsearch = []
-gene = str('HBV')
-string1 = str(r'(?i)\b) + str( +gene+"\\b')
-#print string
+x=0
+gene = raw_input('Enter the gene you wish to find: ')
+
 for Abstract in root.iter('Abstract'):
     hit =[]
+    x+=1
     for AbstractText in Abstract.findall(".//AbstractText"):
         hit.append(AbstractText.text)
-        #find  = re.findall(string,str(hit))
-        find =re.findall(r'(?i)\HBV\b',str(hit))
-        if (len(find) >= 1):
-            docsearch.append(find)
         
-    
+    find =re.findall(r'(?i)\b%s\b'%gene,str(hit))
+    if (len(find) >= 1):
+        docsearch.append(find)
+        print(len(find))
 print docsearch
 print len(docsearch)
-#docsearch = re.findall(r'(?i)\bHBV\b',lines)
+print x
+
