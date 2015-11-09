@@ -1,8 +1,8 @@
 import xml.etree.ElementTree as ET
 import re
-gene = raw_input('Enter the gene you wish to find: ')
-documentMatch =[]
-def extractGeneData(doc, cancer):
+import csv
+
+def extractGeneData(doc, cancer,gene,documentMatch):
     print "Results for " + cancer
     print "------------------------------------------------"
     tree = ET.parse(doc)
@@ -24,7 +24,26 @@ def extractGeneData(doc, cancer):
     
     print "number of documents with this gene = " + str(len(docsearch))
     print "x = " + str(x)
-    return documentMatch.append(len(docsearch))    
-extractGeneData("test1.xml","test1")
-extractGeneData("test.xml","test")
-extractGeneData("bladder.xml","bladder")
+    return documentMatch.append(len(docsearch))
+
+def returnGeneList():
+    with open('genes.txt','rb') as csvfile:
+        genereader = csv.reader(csvfile,delimiter=' ')
+        genesym = []
+        for row in genereader:
+            genechunk = row[0].split("\\")  
+            genesubchunk =  genechunk[0].split("\t")
+            genesym1 = genesubchunk[0].split("([^\s]+)")
+            genesym.append(genesym1[0]) 
+            
+        return genesym
+
+
+def main():
+    gene = raw_input('Enter the gene you wish to find: ')
+    documentMatch = []
+    extractGeneData("./data/test1.xml","test1",gene,documentMatch)
+    extractGeneData("./data/test.xml","test",gene,documentMatch)
+    extractGeneData("./data/bladder.xml","bladder",gene,documentMatch)
+
+main()
