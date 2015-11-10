@@ -46,7 +46,7 @@ def main():
        print "Mining genesym " + str(x) + " of 4"
        test1 = extractGeneData("./data/test1.xml","test1",gene[x],documentMatch)
        test = extractGeneData("./data/test.xml","test",gene[x],documentMatch)
-       bladder = extractGeneData("./data/bladder.xml","bladder cancer",gene[x],documentMatch)
+       bladder = extractGeneData("./data/bladder-data.xml","bladder cancer",gene[x],documentMatch)
        Matrix[x][0] = gene[x]
        Matrix[x][1] = test1
        Matrix[x][2] = test
