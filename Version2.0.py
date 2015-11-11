@@ -37,22 +37,41 @@ def returnGeneList():
             genesym.append(genesym1[0]) 
         genesym.pop(0)
         return genesym
+
+def writecsv(data):
+    csvfile = "./data/matrix.csv"
+    with open(csvfile, "w") as output:
+      writer = csv.writer(output, lineterminator='\n')
+      writer.writerows(data)
+
     
 def main():
-    Matrix = [[ x for x in range(4)] for x in range(4)]
+    # Define Matrix (col)(row)
+    Matrix = [[ x for x in range(4)] for x in range(5)]
+    Matrix[0][0] = "Gene Symbol"
+    Matrix[0][1] = "Bladder Count"
+    Matrix[0][2] = "Lung Count"
+    Matrix[0][3] = "Brain Count"
+
+    # Get gene list
     gene = returnGeneList();
     documentMatch = []
+    # Conduct the mining and inserting of the matrix.
     for x in range(0,4):
-       print "Mining genesym " + str(x) + " of 4"
-       test1 = extractGeneData("./data/test1.xml","test1",gene[x],documentMatch)
-       test = extractGeneData("./data/test.xml","test",gene[x],documentMatch)
+       count = x + 1
+       print "Mining gene symbol " + str(count) + " of 4"
+       brain = extractGeneData("./data/brain-data.xml","Brain Cancer",gene[x],documentMatch)
+       lung = extractGeneData("./data/lung-data.xml","Lung Cancer",gene[x],documentMatch)
        bladder = extractGeneData("./data/bladder-data.xml","bladder cancer",gene[x],documentMatch)
-       Matrix[x][0] = gene[x]
-       Matrix[x][1] = test1
-       Matrix[x][2] = test
-       Matrix[x][3] = bladder
-       
-    for row in Matrix:
-        print row
+     # if lung == 0 and bladder == 0 and brain ==0:
+      #  break
+      #else
+        Matrix[count][0] = gene[x]
+        Matrix[count][1] = bladder
+        Matrix[count][2] = lung
+        Matrix[count][3] = brain
+    
+    writecsv(Matrix)
+    print "Wrote Matrix to file in /data: Matrix.csv"
 
 main()
