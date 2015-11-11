@@ -63,14 +63,10 @@ def main():
        brain = extractGeneData("./data/brain-data.xml","Brain Cancer",gene[x],documentMatch)
        lung = extractGeneData("./data/lung-data.xml","Lung Cancer",gene[x],documentMatch)
        bladder = extractGeneData("./data/bladder-data.xml","bladder cancer",gene[x],documentMatch)
-     # if lung == 0 and bladder == 0 and brain ==0:
-      #  break
-      #else
-        Matrix[count][0] = gene[x]
-        Matrix[count][1] = bladder
-        Matrix[count][2] = lung
-        Matrix[count][3] = brain
-    
+       Matrix[count][0] = gene[x]
+       Matrix[count][1] = bladder
+       Matrix[count][2] = lung
+       Matrix[count][3] = brain
     writecsv(Matrix)
     print "Wrote Matrix to file in /data: Matrix.csv"
 
