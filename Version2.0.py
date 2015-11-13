@@ -19,13 +19,8 @@ def extractGeneData(doc, cancer,gene,documentMatch):
         if (len(find) >= 1):
             docsearch.append(find)
             count+= 1
-           # print "number of times gene found in EACH article = " + str(len(find))
-   # print docsearch
-    
-    #print "number of documents with this gene = " + str(len(docsearch))
-    #print "x = " + str(x)
-    #return documentMatch.append(len(docsearch))
     return count
+
 def returnGeneList():
     with open('./data/genes.txt','rb') as csvfile:
         genereader = csv.reader(csvfile,delimiter=' ')
@@ -47,7 +42,7 @@ def writecsv(data):
     
 def main():
     # Define Matrix (col)(row)
-    Matrix = [[ x for x in range(4)] for x in range(5)]
+    Matrix = [[ x for x in range(4)] for x in range(39827)]
     Matrix[0][0] = "Gene Symbol"
     Matrix[0][1] = "Bladder Count"
     Matrix[0][2] = "Lung Count"
@@ -57,9 +52,9 @@ def main():
     gene = returnGeneList();
     documentMatch = []
     # Conduct the mining and inserting of the matrix.
-    for x in range(0,4):
+    for x in range(0,39826):
        count = x + 1
-       print "Mining gene symbol " + str(count) + " of 4"
+       print "Mining gene symbol " + str(count) + " of 500"
        brain = extractGeneData("./data/brain-data.xml","Brain Cancer",gene[x],documentMatch)
        lung = extractGeneData("./data/lung-data.xml","Lung Cancer",gene[x],documentMatch)
        bladder = extractGeneData("./data/bladder-data.xml","bladder cancer",gene[x],documentMatch)
