@@ -23,13 +23,10 @@ def extractGeneData(doc, cancer,gene,documentMatch):
 
 def returnGeneList():
     with open('./data/genes.txt','rb') as csvfile:
-        genereader = csv.reader(csvfile,delimiter=' ')
+        genereader = csv.reader(csvfile,delimiter='\n')
         genesym = []
         for row in genereader:
-            genechunk = row[0].split("\\")  
-            genesubchunk =  genechunk[0].split("\t")
-            genesym1 = genesubchunk[0].split("([^\s]+)")
-            genesym.append(genesym1[0]) 
+            genesym.append(row) 
         genesym.pop(0)
         return genesym
 
