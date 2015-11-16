@@ -5,7 +5,7 @@
 # Michael Gargano + Joseph Streigle
 #################################
 
-data = read.csv("/home/ganoh/Documents/homework/csc450-/project/matrix.csv")
+data = read.csv("C:/Users/Owner/Desktop/Senior Research/data/matrix.csv")
 
 data.sum = apply(data,2,sum)
 data2 = data.frame[data.sum, row.names = data[0,]] 
