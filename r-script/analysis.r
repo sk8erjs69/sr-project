@@ -5,9 +5,9 @@
 # Michael Gargano + Joseph Streigle
 #################################
 
-data = read.csv("C:/Users/Owner/Desktop/Senior Research/data/matrix.csv")
+data = read.csv("~/Documents/develop/sr-project/data/matrix.csv")
 
-data.sum = apply(data,2,sum)
+data.sum = apply(as.integer(data),1,sum)
 data2 = data.frame[data.sum, row.names = data[0,]] 
 pct = round(data.sum/sum(data.sum) * 100)
 lbls <- paste(data[0,],pct)

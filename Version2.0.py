@@ -2,31 +2,32 @@ import xml.etree.ElementTree as ET
 import re
 import csv
 
-def extractGeneData(doc, cancer,gene,documentMatch):
-    tree = ET.parse(doc)
-    root = tree.getroot()
-    hit =[]
-    docsearch = []
-    x=0
-    count = 0
-    for Abstract in root.iter('Abstract'):
-        hit =[]
-        x+=1
-        for AbstractText in Abstract.findall(".//AbstractText"):
-            hit.append(AbstractText.text)
-            
-        find =re.findall(r'(?i)\b%s\b'%gene,str(hit))
-        if (len(find) >= 1):
-            docsearch.append(find)
-            count+= 1
-    return count
+def extractGeneData(doc, cancer,gene_dict):
+     
+     with open(doc,'r') as txtfile:
+      for line in txtfile:
+        abstract = line.split(",")
+        abstract = list(abstract)
+        x = len(abstract)
+        for i in range(0,x):
+          word = str(abstract[i])
+          try:
+            valueMatch = gene_dict[word]
+            gene_dict[word] = valueMatch + 1
+          except Exception, e:
+            continue;
+      return gene_dict
+
+
+
 
 def returnGeneList():
     with open('./data/genes.txt','rb') as csvfile:
         genereader = csv.reader(csvfile,delimiter='\n')
         genesym = []
         for row in genereader:
-            genesym.append(row) 
+           row = ''.join(row)
+           genesym.append(row) 
         genesym.pop(0)
         return genesym
 
@@ -36,29 +37,54 @@ def writecsv(data):
       writer = csv.writer(output, lineterminator='\n')
       writer.writerows(data)
 
+def reset_dict():
+  gene = returnGeneList();
+  gene_dict = {}
+  for  i in range(0,len(gene)):
+    gene_dict[str(gene[i])] = 0
+  return gene_dict
+
     
 def main():
     # Define Matrix (col)(row)
-    Matrix = [[ x for x in range(4)] for x in range(39827)]
+    #39825
+    Matrix = [[ x for x in range(4)] for x in range(39825)]
     Matrix[0][0] = "Gene Symbol"
     Matrix[0][1] = "Bladder Count"
     Matrix[0][2] = "Lung Count"
     Matrix[0][3] = "Brain Count"
 
-    # Get gene list
-    gene = returnGeneList();
-    documentMatch = []
+
     # Conduct the mining and inserting of the matrix.
-    for x in range(0,39826):
-       count = x + 1
-       print "Mining gene symbol " + str(count) + " of 500"
-       brain = extractGeneData("./data/brain-data.xml","Brain Cancer",gene[x],documentMatch)
-       lung = extractGeneData("./data/lung-data.xml","Lung Cancer",gene[x],documentMatch)
-       bladder = extractGeneData("./data/bladder-data.xml","bladder cancer",gene[x],documentMatch)
-       Matrix[count][0] = gene[x]
-       Matrix[count][1] = bladder
-       Matrix[count][2] = lung
-       Matrix[count][3] = brain
+    #39824
+    gene_dict = reset_dict()
+    print "Mining gene symbols"
+    gene_dict = reset_dict()
+    bladder = extractGeneData("./data/bladder-data.txt","bladder cancer",gene_dict)
+    count = 0
+    for key, value in bladder.iteritems():
+      count = count + 1
+      Matrix[count][0] = key
+      Matrix[count][1] = value
+   
+    gene_dict = reset_dict()
+    lung =  extractGeneData("./data/lung-data.txt","Lung Cancer",gene_dict)
+    count = 0
+    for key,value in lung.iteritems():
+      count = count + 1
+      Matrix[count][2] = value
+
+    gene_dict = reset_dict()
+    brain = extractGeneData("./data/brain-data.txt","Brain Cancer",gene_dict)
+    count = 0 
+    for key,value in brain.iteritems():   
+      count = count + 1
+      Matrix[count][3] = value
+
+   
+
+
+
     writecsv(Matrix)
     print "Wrote Matrix to file in /data: Matrix.csv"
 

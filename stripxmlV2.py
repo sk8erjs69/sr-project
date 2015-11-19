@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 import re
 #-*- coding: utf-8 -*-
 def stripxml():
-    doc = './data/brain.xml'
+    doc = './data/lungs.xml'
     tree = ET.parse(doc)
     root = tree.getroot()
     hit =[]
@@ -20,14 +20,12 @@ any|can|had|her|was|one|our|out|day|get|has|him|his|how|man|new|now\
 time|very|when|come|here|just|like|long|make|many|more|only|over|such|take\
 |than|them|well|were|gene|coma)(?i)\b\w\w\w\w\b|(?!genes|bleed|\
 blood|death|tumor|human)(?i)\b\w\w\w\w\w\b|(?i)\b\w\w\w\w\w\w\b',xml_string)
-        find = set(find)
-        hit=list(find)
+        hit = set(find)
+        hit= list(hit)
         hit.sort()
-        docsearch.append(hit)
-    for d in docsearch:
-        with open('./data/brain-data.txt','a') as xmlfile:
-           data = str(d)
-           xmlfile.write(data)
+        hit = ','.join(hit)
+        with open('./data/lung-data.txt','a') as txtfile:
+           txtfile.write(str(hit) + '\n')
 
            
 def main():
