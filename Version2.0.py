@@ -3,22 +3,19 @@ import re
 import csv
 
 def extractGeneData(doc, cancer,gene_dict):
-     
      with open(doc,'r') as txtfile:
       for line in txtfile:
         abstract = line.split(",")
         abstract = list(abstract)
         x = len(abstract)
         for i in range(0,x):
-          word = str(abstract[i])
+          word = str(abstract[i]).strip()##added to remove whitespace from last word in list
           try:
             valueMatch = gene_dict[word]
             gene_dict[word] = valueMatch + 1
           except Exception, e:
             continue;
       return gene_dict
-
-
 
 
 def returnGeneList():
@@ -32,7 +29,7 @@ def returnGeneList():
         return genesym
 
 def writecsv(data):
-    csvfile = "./data/matrix.csv"
+    csvfile = "./new-data/matrix.csv"
     with open(csvfile, "w") as output:
       writer = csv.writer(output, lineterminator='\n')
       writer.writerows(data)
@@ -60,7 +57,7 @@ def main():
     gene_dict = reset_dict()
     print "Mining gene symbols"
     gene_dict = reset_dict()
-    bladder = extractGeneData("./data/bladder-data.txt","bladder cancer",gene_dict)
+    bladder = extractGeneData("./new-data/bladder-data.txt","bladder cancer",gene_dict)
     count = 0
     for key, value in bladder.iteritems():
       count = count + 1
@@ -68,24 +65,20 @@ def main():
       Matrix[count][1] = value
    
     gene_dict = reset_dict()
-    lung =  extractGeneData("./data/lung-data.txt","Lung Cancer",gene_dict)
+    lung =  extractGeneData("./new-data/lung-data.txt","Lung Cancer",gene_dict)
     count = 0
     for key,value in lung.iteritems():
       count = count + 1
       Matrix[count][2] = value
 
     gene_dict = reset_dict()
-    brain = extractGeneData("./data/brain-data.txt","Brain Cancer",gene_dict)
+    brain = extractGeneData("./new-data/brain-data.txt","Brain Cancer",gene_dict)
     count = 0 
     for key,value in brain.iteritems():   
       count = count + 1
       Matrix[count][3] = value
 
-   
-
-
-
     writecsv(Matrix)
-    print "Wrote Matrix to file in /data: Matrix.csv"
+    print "Wrote Matrix to file in /new-data: Matrix.csv"
 
 main()
