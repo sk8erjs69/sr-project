@@ -29,7 +29,7 @@ def returnGeneList():
         return genesym
 
 def writecsv(data):
-    csvfile = "./new-data/matrix.csv"
+    csvfile = "./big-data/matrix.csv"
     with open(csvfile, "w") as output:
       writer = csv.writer(output, lineterminator='\n')
       writer.writerows(data)
@@ -47,7 +47,7 @@ def main():
     #39825
     Matrix = [[ x for x in range(4)] for x in range(39825)]
     Matrix[0][0] = "Gene Symbol"
-    Matrix[0][1] = "Bladder Count"
+    Matrix[0][1] = "Prostate Count"
     Matrix[0][2] = "Lung Count"
     Matrix[0][3] = "Brain Count"
 
@@ -57,28 +57,28 @@ def main():
     gene_dict = reset_dict()
     print "Mining gene symbols"
     gene_dict = reset_dict()
-    bladder = extractGeneData("./new-data/bladder-data.txt","bladder cancer",gene_dict)
+    prostate = extractGeneData("./big-data/prostate-data.txt","bladder cancer",gene_dict)
     count = 0
-    for key, value in bladder.iteritems():
+    for key, value in prostate.iteritems():
       count = count + 1
       Matrix[count][0] = key
       Matrix[count][1] = value
    
     gene_dict = reset_dict()
-    lung =  extractGeneData("./new-data/lung-data.txt","Lung Cancer",gene_dict)
+    lung =  extractGeneData("./big-data/lung-data.txt","Lung Cancer",gene_dict)
     count = 0
     for key,value in lung.iteritems():
       count = count + 1
       Matrix[count][2] = value
 
     gene_dict = reset_dict()
-    brain = extractGeneData("./new-data/brain-data.txt","Brain Cancer",gene_dict)
+    brain = extractGeneData("./big-data/brain-data.txt","Brain Cancer",gene_dict)
     count = 0 
     for key,value in brain.iteritems():   
       count = count + 1
       Matrix[count][3] = value
 
     writecsv(Matrix)
-    print "Wrote Matrix to file in /new-data: Matrix.csv"
+    print "Wrote Matrix to file in /big-data: Matrix.csv"
 
 main()
