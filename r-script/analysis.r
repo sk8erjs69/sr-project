@@ -25,7 +25,7 @@ f <- function(r){
                y, 20000 - y,
                z, 20000 - z ),nrow = 3, byrow = TRUE)
   
-  f = fisher.test(mm, workspace = 400000,hybrid = TRUE)
+  f = fisher.test(mm, workspace = 800000,hybrid = TRUE)
   
   return (f$p.value)
 }
